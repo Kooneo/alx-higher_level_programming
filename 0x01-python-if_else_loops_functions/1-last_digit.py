@@ -9,10 +9,10 @@ def last_digit(num):
 last_digit = last_digit(number)
 
 if last_digit > 5:
-    end_str = "and is greater than 5\n"
+    end_str = "and is greater than 5"
 elif last_digit == 0:
-    end_str = "and is 0\n"
+    end_str = "and is 0"
 elif last_digit < 6 and last_digit != 0:
-    end_str = "and is less than 6 and not 0\n"
+    end_str = "and is less than 6 and not 0"
 
 print(f"Last digit of {number} is {last_digit} {end_str}")
